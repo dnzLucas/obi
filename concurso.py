@@ -1,0 +1,5 @@
+n,k = map(int, input().split())
+notas = list(map(int, input().split()))
+notas.sort()
+nota_min = notas.pop(-k)
+print(nota_min)
